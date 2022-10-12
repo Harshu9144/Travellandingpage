@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #1A3D49;
+}
+
+img{
+    position: relative;
+    width: 90%;
+    height: 85%;
+}
+h1{
+   position: absolute;
+   top: 45%;
+   left: -13%;
+   opacity: 50%;
+   color: grey;
+   transform: rotate(270deg);
+   font-size: 7vw;
+   font-family: "gilroy";
+   font-weight: 500;
+}
+
+#trans{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    width: 28%;
+    height: 80%;
+    background-color: white;
+    opacity: 20%;
+}
+
+#red{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    width: 9%;
+    height: 4%;
+    opacity: 100%;
+    background-color: red;
+}
+
+#red>h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 1vw;
+}
+
+#trans>h2{
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    letter-spacing: 1px;
+    font-size: 4vw;
+    opacity: 100%;
+}
+
+#trans #p1{
+    position: absolute;
+    top: 41%;
+    left: 13%;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+button{
+    position: absolute;
+    top: 63%;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1vw;
+    left: 13.8%;
+    cursor: progress;
+    color: black;
+    background-color: white;
+}
+
+#trans #p2{
+    position: absolute;
+    bottom: 2%;
+    left: 13%;
+    font-size: 0.9vw;
+}
+
+#h61{
+    position: absolute;
+    bottom: 9%;
+    left: 42%;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+#h62{
+    position: absolute;
+    bottom: 9%;
+    left: 61%;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+#h63{
+    position: absolute;
+    bottom: 9%;
+    left: 76%;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+#futter{
+    display: block;
+    position: absolute;
+    top: 0%;
+    width: 10%;
+    height: 55%;
+    right: 0%;
+    background-color: white;
+
+}
+
+#top>i{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    color: black;
+}
+
+#center>i{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    color: black;
+}
+
+
+#down>i{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    color: black;
+}
+
+
+#futter #top{
+    
+    width: 100%;
+    height: 33.3%;
+}
+#futter #center{
+    background-color: rgb(154, 234, 234);
+    opacity: 40%;
+    width: 100%;
+    height: 33.3%;
+}
+#futter #down{
+   
+    width: 100%;
+    height: 33.3%;
+}
+
+#icons{
+    display: block ;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 11%;
+    right: 3.5%;
+    width: 2%;
+    height: 28%;
+}
+
+
+#icons>i{
+    cursor: progress;
+    font-size: 2.2vw;
+    color: white;
+    opacity: 30%;
+}
+
+@media(max-width: 600px){
+    img{
+        position: relative;
+        width: 100%;
+        height: 65%;
+    }
+    h1{
+       position: absolute;
+       top: 8%;
+       left: 4%;
+       opacity: 50%;
+       color: grey;
+       transform: rotate(360deg);
+       font-size: 17vw;
+       font-family: "gilroy";
+       font-weight: 500;
+    }
+    
+    #trans{
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        width: 55%;
+        height: 35%;
+        background-color: white;
+        opacity: 20%;
+    }
+    
+    #red{
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        width: 20%;
+        height: 4%;
+        opacity: 100%;
+        background-color: red;
+    }
+    
+    #red>h4{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-weight: 500;
+        letter-spacing: 3px;
+        font-size: 2vw;
+    }
+    
+    #trans>h2{
+        position: absolute;
+        top: 13%;
+        left: 13%;
+        letter-spacing: 1px;
+        font-size: 8vw;
+        opacity: 100%;
+    }
+    
+    #trans #p1{
+        position: absolute;
+        top: 42%;
+        left: 13%;
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+    
+    button{
+        position: absolute;
+        top: 78%;
+        border: none;
+        padding: 7px;
+        font-size: 2.5vw;
+        left: 13%;
+        cursor: progress;
+        color: black;
+        background-color: white;
+    }
+    
+    #trans #p2{
+        position: absolute;
+        bottom: 4%;
+        left: 9%;
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+    
+    #h61{
+        position: absolute;
+        bottom: 31%;
+        left: 62%;
+        font-size: 3vw;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        border-bottom: 1px solid white;
+    }
+    
+    #h62{
+        position: absolute;
+        bottom: 24%;
+        left: 62%;
+        font-size: 3vw;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        border-bottom: 1px solid white;
+    }
+    
+    #h63{
+        position: absolute;
+        bottom: 18%;
+        left: 62%;
+        font-size: 3vw;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        border-bottom: 1px solid white;
+    }
+    
+    #futter{
+        display: block;
+        position: absolute;
+        top: 20%;
+        width: 15%;
+        height: 25%;
+        right: 0%;
+        background-color: white;
+    
+    }
+    
+    #top>i{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        color: black;
+    }
+    
+    #center>i{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        color: black;
+    }
+    
+    
+    #down>i{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        color: black;
+    }
+    
+    
+    #futter #top{
+        
+        width: 100%;
+        height: 33.3%;
+    }
+    #futter #center{
+        background-color: rgb(154, 234, 234);
+        opacity: 40%;
+        width: 100%;
+        height: 33.3%;
+    }
+    #futter #down{
+       
+        width: 100%;
+        height: 33.3%;
+    }
+    
+    #icons{
+        display: block ;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        bottom: 2%;
+        right: 2%;
+        width: 5%;
+        height: 40%;
+        font-size: 6vw;
+    }
+    
+    
+    #icons>i{
+        cursor: progress;
+        font-size: 2.2vw;
+        color: white;
+        opacity: 30%;
+    }
+}
